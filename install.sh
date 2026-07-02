@@ -79,4 +79,4 @@ rmdf()
 
 GrabRepo
 rmdf
-exec bash
+source ~/.bashrc;
