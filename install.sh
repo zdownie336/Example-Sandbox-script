@@ -6,10 +6,16 @@ REPOS=("git-intro" "holbertonschool-shell" "holbertonschool-low_level_programmin
 
 # Get the bashrc from git repo and save to .bashrc 
 echo "hello, getting bashrc and saving your old one";
+	if [[ -f ~/.bashrc ]]; then
+		mv $HOME/.bashrc $HOME/.bashrc.bak;
+	fi
 wget -qO ~/.bashrc https://raw.githubusercontent.com/$USERNAME/Example-Sandbox-script/refs/heads/main/bashrc
 
 # Get the bash_aliases from git repo and save to .bash_aliases 
 echo "hello, getting bash_aliases and saving your old one";
+	if [[ -f ~/.bash_aliases ]]; then
+		mv $HOME/.bash_aliases $HOME/.bash_aliases.bak;
+	fi
 wget -qO ~/.bash_aliases https://raw.githubusercontent.com/$USERNAME/example-sandbox-script/refs/heads/main/bash_aliases
 
 
