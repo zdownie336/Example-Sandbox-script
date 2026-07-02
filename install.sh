@@ -1,7 +1,7 @@
-USERNAME="Opabinia9"
+USERNAME="zdownie336"
 REPONAME="Example-Sandbox-script"
-NAME="Sebastion"
-USEREMAIL="sebastionprice@gmail.com"
+NAME="Zacary"
+USEREMAIL="14842@holbertonschools.com"
 REPOS=("git-intro" "holbertonschool-shell" "holbertonschool-low_level_programming");
 
 # Get the bashrc from git repo and save to .bashrc 
